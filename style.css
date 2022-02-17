@@ -1,0 +1,74 @@
+    @font-face {
+        font-family: love-glitch;
+        src: url(/fonts/LoveGlitchPersonalUseRegular-vmEyA.ttf);
+    }
+    
+    @font-face {
+        font-family: norzaque;
+        src: url(/fonts/nasalization-rg.otf);
+    }
+    
+    @font-face {
+        font-family: zorque;
+        src: url(/fonts/zorque.otf);
+    }
+    
+    input[type='text'] {
+        font-size: 24px;
+        font-family: zorque;
+    }
+    
+    body {
+        background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    }
+    
+    .text-line {
+        background-color: transparent;
+        color: #313552;
+        outline: none;
+        outline-style: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid #ff99cc 2px;
+        /* margin: 25%; */
+        margin-left: 25%;
+        display: block;
+    }
+    
+    .btn {
+        margin-top: -2%;
+        margin-left: 53%;
+        display: flex;
+        cursor: pointer;
+        background-color: #ff99cc;
+        font-family: zorque;
+        font-size: 18px;
+    }
+    
+    .container {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+    
+    p.output {
+        margin-top: 3.5rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #313552;
+    }
+    
+    #h1 {
+        padding: 15px;
+        background: linear-gradient(to right, #33ccff 0%, #FFFCDC 100%);
+        background-clip: border-box;
+        border-radius: 8px;
+    }
+    /* .search {
+        padding-left: 20px;
+        background: lightblue;
+        background-clip: border-box;
+        border-radius: 8px;
+    } */
