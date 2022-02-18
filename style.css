@@ -45,7 +45,7 @@
         margin-left: 53%;
         display: flex;
         cursor: pointer;
-        background-color: #ff99cc;
+        background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
         font-family: zorque;
         font-size: 18px;
     }
