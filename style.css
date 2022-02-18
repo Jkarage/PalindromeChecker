@@ -1,14 +1,4 @@
     @font-face {
-        font-family: love-glitch;
-        src: url(/fonts/LoveGlitchPersonalUseRegular-vmEyA.ttf);
-    }
-    
-    @font-face {
-        font-family: norzaque;
-        src: url(/fonts/nasalization-rg.otf);
-    }
-    
-    @font-face {
         font-family: zorque;
         src: url(/fonts/zorque.otf);
     }
@@ -23,6 +13,20 @@
     }
     
     .text-line {
+        background-color: transparent;
+        color: #313552;
+        outline: none;
+        outline-style: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid #ff99cc 2px;
+        /* margin: 25%; */
+        margin-left: 25%;
+        display: block;
+    }
+    
+    .k-line {
         background-color: transparent;
         color: #313552;
         outline: none;
@@ -60,15 +64,18 @@
         color: #313552;
     }
     
+    .search {
+        padding-top: 40px;
+    }
+    
     #h1 {
         padding: 15px;
         background: linear-gradient(to right, #33ccff 0%, #FFFCDC 100%);
         background-clip: border-box;
         border-radius: 8px;
+        font-size: 20px;
     }
-    /* .search {
-        padding-left: 20px;
-        background: lightblue;
-        background-clip: border-box;
-        border-radius: 8px;
-    } */
+    
+    .chances-available {
+        margin-top: 35px;
+    }
